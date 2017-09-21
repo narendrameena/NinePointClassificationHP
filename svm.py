@@ -7,7 +7,7 @@ import pre_process_data_nine_point as pre
 from sklearn import svm
 
 
-ff=open('svm_results.csv','w')
+ff=open('data2/svm_results.csv','w')
 ff.write('Iterations\tErrors\tTest set length\terror %\n')
 
 for iteration in range(0,1000):
